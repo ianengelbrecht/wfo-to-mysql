@@ -1,0 +1,2833 @@
+{
+    "doi": "10.5281\/zenodo.7460141",
+    "title": "World Flora Online Plant List 2026-06",
+    "alias": "WFO Plant List 2026-06",
+    "description": "The consensus taxonomy of plants used as the backbone for the World Flora Online (WFO, https:\/\/www.worldfloraonline.org\/) portal, and issued as editions of the WFO Plant List (https:\/\/wfoplantlist.org). New versions of this checklist are released every six months in June and December: this is release 2026-06. The history of data development for the WFO taxonomic backbone is given on the WFO Plant List background page (https:\/\/wfoplantlist.org\/background). Taxonomic names are incorporated into WFO from nomenclators International Plant Name Index (IPNI, https:\/\/www.ipni.org\/) for vascular plants, and Tropicos (https:\/\/www.tropicos.org\/home) for bryophytes. Taxonomic and nomenclatural updates are incorporated from the WFO's Taxonomic Expert Networks (TENs, https:\/\/about.worldfloraonline.org\/tens) and the World Checklist of Vascular Plants (WCVP, https:\/\/powo.science.kew.org\/about-wcvp), facilitated by the Royal Botanic Gardens, Kew.",
+    "issued": "2026-06-21",
+    "version": "2026-06 01",
+    "contact": {
+        "orcid": "0000-0002-8677-5688",
+        "given": "Alan",
+        "family": "Elliott",
+        "email": "taxwg@worldfloraonline.org"
+    },
+    "creator": [
+        {
+            "email": "taxwg@worldfloraonline.org",
+            "url": "http:\/\/www.worldfloraonline.org",
+            "organisation": "World Flora Online"
+        }
+    ],
+    "editor": [
+        {
+            "orcid": "0009-0009-5774-2316",
+            "given": "Jordi",
+            "family": "Abad-Brotons",
+            "note": "Curator of Frankeniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8568-8566",
+            "given": "Rafael",
+            "family": "Acu\u00f1a",
+            "note": "Curator of Loasaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5384-6980",
+            "given": "Carlos",
+            "family": "Aedo",
+            "note": "Curator of Geranium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9666-460X",
+            "given": "Suzana",
+            "family": "Alcantara",
+            "note": "Curator of Velloziaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9562-9287",
+            "given": "Rafael Felipe de",
+            "family": "Almeida",
+            "note": "Curator of Malpighiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1611-1333",
+            "given": "T.E.",
+            "family": "Almeida",
+            "note": "Curator of Adetogramma, Amauropelta, Goniopteris, Megalastrum, Meniscium, Microgramma, Niphidium, Phlegmariurus, Pleopeltis, Schizaeaceae and Steiropteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3768-9203",
+            "given": "M. \u00c1ngeles",
+            "family": "Alonso-Vargas",
+            "note": "Curator of Caryophyllaceae, Frankeniaceae and Tamaricaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7793-0386",
+            "given": "William",
+            "family": "Alverson",
+            "note": "Curator of Bombacoideae, Malvoideae and Matisioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9375-4033",
+            "given": "Gabriela",
+            "family": "Amorim",
+            "note": "Curator of Eugenia, Eugeniinae and Myrcianthes in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1640-9156",
+            "given": "Gregory",
+            "family": "Anderson",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6369-6269",
+            "given": "Giovani Carlos",
+            "family": "Andrella",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3729-2230",
+            "given": "Marjorie Delos",
+            "family": "Angeles",
+            "note": "Curator of Cyclopeltis and Tectaria in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4071-8108",
+            "given": "Marco",
+            "family": "Anguiano",
+            "note": "Curator of Lycianthes in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9405-1930",
+            "given": "Higor",
+            "family": "Antonio-Domingues",
+            "note": "Curator of Malpighiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7921-6186",
+            "given": "Marcelo",
+            "family": "Arana",
+            "note": "Curator of Austrolycopodium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7388-7608",
+            "given": "Wisnu Handoyo",
+            "family": "Ardi",
+            "note": "Curator of Begoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3120-800X",
+            "given": "Axel",
+            "family": "Arriola",
+            "note": "Curator of Rubiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1179-3053",
+            "given": "Renata",
+            "family": "Asprino",
+            "note": "Curator of Chrysobalanaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3523-1883",
+            "given": "Hannah",
+            "family": "Atkins",
+            "note": "Curator of Gesneriaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8646-6711",
+            "given": "John J.",
+            "family": "Atwood",
+            "note": "Curator of Amphidiales, Andreaeales, Andreaeobryales, Anthocerotales, Archidiales, Aulacomniales, Bartramiales, Blasiales, Bruchiales, Bryales, Bryoxiphiales, Buxbaumiales, Calobryales, Catoscopiaceae, Catoscopiales, Dendrocerotales, Dicranales, Diphysciales, Disceliales, Distichiaceae, Encalyptales, Erpodiales, Eustichiales, Flexitrichales, Fossombroniales, Frullaniales, Funariales, Gigaspermales, Grimmiales, Hedwigiales, Hookeriales, Hypnales, Hypnodendrales, Hypopterygiales, Jubulales, Jungermanniales, Leiosporocerotales, Lejeuneales, Lepidoziales, Lophoziales, Lunulariales, Marchantiales, Metzgeriales, Mitteniales, Myliales, Neohodgsoniales, Notothyladales, Oedipodiales, Orthodontiales, Orthotrichales, Pallaviciniales, Pelliales, Perssoniellales, Phymatocerotales, Pleurophascales, Pleuroziales, Polytrichales, Porellales, Pottiales, Pseudoditrichales, Ptilidiales, Ptychomniales, Radulales, Rhabdoweisiales, Rhizogoniales, Scouleriales, Sorapillales, Sphaerocarpales, Sphagnales, Splachnales, Takakiales, Tetraphidales, Timmiales, Timmiellaceae and Treubiales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8112-0754",
+            "given": "Xavier",
+            "family": "Aubriot",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6727-1831",
+            "given": "William",
+            "family": "Baker",
+            "note": "Curator of Arecaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0608-970X",
+            "given": "Anoop Puthuparampil",
+            "family": "Balan",
+            "note": "Curator of Detarioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0028-2242",
+            "given": "Bruce",
+            "family": "Baldwin",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4110-8419",
+            "given": "Patricia",
+            "family": "Barber\u00e1",
+            "note": "Curator of Putranjivaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0668-4840",
+            "given": "Rafael G.",
+            "family": "Barbosa-Silva",
+            "note": "Curator of Chrysobalanaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0360-8321",
+            "given": "Russell",
+            "family": "Barrett",
+            "note": "Curator of Astrohibiscus, Cravenia, Hibisceae, Hibiscus, Sabdariffa and Syzygieae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9207-3888",
+            "given": "David S.",
+            "family": "Barrington",
+            "note": "Curator of Polystichum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8199-6003",
+            "given": "Fabrizio",
+            "family": "Bartolucci",
+            "note": "Curator of Papavereae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6245-3481",
+            "given": "Ana M.",
+            "family": "Bedoya",
+            "note": "Curator of Podostemaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9945-7606",
+            "given": "Walter G.",
+            "family": "Berendsohn",
+            "note": "Curator of Achatocarpaceae, Agdestidaceae, Aizoaceae, Anacampserotaceae, Ancistrocladaceae, Asteropeiaceae, Barbeuiaceae, Cactaceae, Corbichoniaceae, Dioncophyllaceae, Drosophyllaceae, Gisekiaceae, Halophytaceae, Kewaceae, Lophiocarpaceae, Macarthuriaceae, Microteaceae, Nepenthaceae, Physenaceae, Plumbaginaceae, Simmondsiaceae and Stegnospermataceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0475-6222",
+            "given": "Nicola",
+            "family": "Bergh",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5796-2276",
+            "given": "Richard Junior Balvin",
+            "family": "Bernal",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0000-0864-0158",
+            "given": "Pedro Henrique Oliver",
+            "family": "Bigue",
+            "note": "Curator of Myrtaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1014-6375",
+            "given": "Carme",
+            "family": "Blanco-Gavald\u00e0",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8408-8841",
+            "given": "Diego",
+            "family": "Bogar\u00edn",
+            "note": "Curator of Orchidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0377-3853",
+            "given": "Mauricio",
+            "family": "Bonifacino",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9269-7316",
+            "given": "Leonardo",
+            "family": "Borges",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5724-2786",
+            "given": "Thomas",
+            "family": "Borsch",
+            "note": "Curator of Amaranthaceae, Buxaceae, Caryophyllaceae and Chenopodiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9083-1235",
+            "given": "John C.",
+            "family": "Brinda",
+            "note": "Curator of Amphidiales, Andreaeales, Andreaeobryales, Anthocerotales, Archidiales, Aulacomniales, Bartramiales, Blasiales, Bruchiales, Bryales, Bryoxiphiales, Buxbaumiales, Calobryales, Catoscopiaceae, Catoscopiales, Dendrocerotales, Dicranales, Diphysciales, Disceliales, Distichiaceae, Encalyptales, Erpodiales, Eustichiales, Flexitrichales, Fossombroniales, Frullaniales, Funariales, Gigaspermales, Grimmiales, Hedwigiales, Hookeriales, Hypnales, Hypnodendrales, Hypopterygiales, Jubulales, Jungermanniales, Leiosporocerotales, Lejeuneales, Lepidoziales, Lophoziales, Lunulariales, Marchantiales, Metzgeriales, Mitteniales, Myliales, Neohodgsoniales, Notothyladales, Oedipodiales, Orthodontiales, Orthotrichales, Pallaviciniales, Pelliales, Perssoniellales, Phymatocerotales, Pleurophascales, Pleuroziales, Polytrichales, Porellales, Pottiales, Pseudoditrichales, Ptilidiales, Ptychomniales, Radulales, Rhabdoweisiales, Rhizogoniales, Scouleriales, Sorapillales, Sphaerocarpales, Sphagnales, Splachnales, Takakiales, Tetraphidales, Timmiales, Timmiellaceae and Treubiales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6735-1313",
+            "given": "Theodore S",
+            "family": "Brook",
+            "note": "Curator of Anthospermeae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7940-5435",
+            "given": "Gillian",
+            "family": "Brown",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5547-0796",
+            "given": "Anne",
+            "family": "Bruneau",
+            "note": "Curator of Fabaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2832-9540",
+            "given": "Carla Poleselli",
+            "family": "Bruniera",
+            "note": "Curator of Palicoureeae and Psychotrieae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8644-3360",
+            "given": "Pasakorn",
+            "family": "Bunchalee",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2712-3433",
+            "given": "Xander van der",
+            "family": "Burgt",
+            "note": "Curator of Detarioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9615-2057",
+            "given": "Maria Teresa",
+            "family": "Buril",
+            "note": "Curator of Daustinia and Jacquemontia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1701-6370",
+            "given": "Matt",
+            "family": "Buys",
+            "note": "Curator of Echiostachys and Lobostemon in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1415-7896",
+            "given": "Tim",
+            "family": "B\u00f6hnert",
+            "note": "Curator of Asparagaceae and Boraginales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4330-0946",
+            "given": "Andressa",
+            "family": "Cabral",
+            "note": "Curator of Velloziaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8367-8818",
+            "given": "Fernanda Nunes",
+            "family": "Cabral",
+            "note": "Curator of Calophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9650-3136",
+            "given": "Michael",
+            "family": "Calonje",
+            "note": "Curator of Cycadales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0009-1676-0251",
+            "given": "Roderick",
+            "family": "Cameron",
+            "note": "Curator of Fagaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0000-4587-5351",
+            "given": "R.",
+            "family": "Camfield",
+            "note": "Curator of Ericaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2604-6088",
+            "given": "Fiorella Fernanda Mazine",
+            "family": "Capelo",
+            "note": "Curator of Eugeniinae and Myrtaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7072-2656",
+            "given": "Domingos",
+            "family": "Cardoso",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7660-9918",
+            "given": "Jo\u00e3o",
+            "family": "Carmo",
+            "note": "Curator of Spermacoceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1880-654X",
+            "given": "Catarina Silva de",
+            "family": "Carvalho",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9706-0947",
+            "given": "Lorenzo",
+            "family": "Cecchi",
+            "note": "Curator of Lithospermeae, Maharanga and Onosma aucheriana brachyphylla in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7433-5987",
+            "given": "Yi-Shan",
+            "family": "Chao",
+            "note": "Curator of Pteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0131-0302",
+            "given": "Lars",
+            "family": "Chatrou",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0005-8380-9669",
+            "given": "Yih Horng",
+            "family": "Cheah",
+            "note": "Curator of Tarenna and Timonius in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4343-3124",
+            "given": "Martin",
+            "family": "Cheek",
+            "note": "Curator of Sterculioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9709-6739",
+            "given": "Cheng-Wei",
+            "family": "Chen",
+            "note": "Curator of Antrophyum, Haplopteris and Vaginularia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3659-8019",
+            "given": "Chi-Chuan",
+            "family": "Chen",
+            "note": "Curator of Microsoroideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0000-9816-0448",
+            "given": "Chia-Tung",
+            "family": "Chen",
+            "note": "Curator of Bolbitis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8822-169X",
+            "given": "Junhao",
+            "family": "Chen",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6473-3129",
+            "given": "Franco",
+            "family": "Chiarini",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1609-8343",
+            "given": "Le Min",
+            "family": "Choo",
+            "note": "Curator of Detarioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9475-2075",
+            "given": "Daniele",
+            "family": "Cicuzza",
+            "note": "Curator of Syngramma in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4755-7370",
+            "given": "James",
+            "family": "Cohen",
+            "note": "Curator of Buglossoides, Eritrichiinae, Hackelia, Lithospermeae, Lithospermum and Mertensia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4277-2933",
+            "given": "Jos\u00e9",
+            "family": "Corro",
+            "note": "Curator of Cyperaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1747-1506",
+            "given": "David Schellenberger",
+            "family": "Costa",
+            "note": "Curator of Meliaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9292-9030",
+            "given": "T.V.",
+            "family": "Costa",
+            "note": "Curator of Aspleniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8509-6587",
+            "given": "Thomas",
+            "family": "Couvreur",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6614-4216",
+            "given": "Darren",
+            "family": "Crayn",
+            "note": "Curator of Elaeocarpaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3294-5637",
+            "given": "Manuel B.",
+            "family": "Crespo",
+            "note": "Curator of Caryophyllaceae, Frankeniaceae, Plumbaginaceae and Tamaricaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4027-7368",
+            "given": "Quentin",
+            "family": "Cronk",
+            "note": "Curator of Lacistemataceae and Salicaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4938-5840",
+            "given": "Neil",
+            "family": "Crouch",
+            "note": "Curator of Eucomis, Merwilla, Pseudoprospero, Rhadamanthopsis, Schizobasis, Schizocarphus, Vera-duthiea, Zingela and Zulusia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3353-591X",
+            "given": "Dan",
+            "family": "Crowley",
+            "note": "Curator of Hippocastanoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7440-0133",
+            "given": "Alastair",
+            "family": "Culham",
+            "note": "Curator of Droseraceae, Hyacintheae and Oziroeeae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2197-9687",
+            "given": "Kaio Cesar Marinho da",
+            "family": "Cunha",
+            "note": "Curator of Sapotaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3441-4602",
+            "given": "Glenda",
+            "family": "C\u00e1rdenas",
+            "note": "Curator of Metaxya and Salpichlaena in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0233-9935",
+            "given": "L. Alexander",
+            "family": "Damian-Parizaca",
+            "note": "Curator of Orchidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5514-9561",
+            "given": "Iain",
+            "family": "Darbyshire",
+            "note": "Curator of Acanthaceae and Funastrum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0982-4252",
+            "given": "Benjamin",
+            "family": "Dauphin",
+            "note": "Curator of Ophioglossaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0557-9886",
+            "given": "John",
+            "family": "David",
+            "note": "Curator of Hyacintheae and Scilla in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0003-0180-2195",
+            "given": "Marie G.",
+            "family": "Declercq",
+            "note": "Curator of Ipomoea in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0006-5414-1687",
+            "given": "Nadia Sof\u00eda",
+            "family": "Delvescovo",
+            "note": "Curator of Spermacoceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0005-0696-8447",
+            "given": "Vinicius Luvizotto",
+            "family": "Denardi",
+            "note": "Curator of Eugenia and Eugeniinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0448-5706",
+            "given": "Mauricio",
+            "family": "Diazgranados",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2836-6760",
+            "given": "Markus",
+            "family": "Dillenberger",
+            "note": "Curator of Caryophyllaceae and Caryophyllales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6950-1335",
+            "given": "Vin\u00edcius Antonio de Oliveira",
+            "family": "Dittrich",
+            "note": "Curator of Blechnaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5774-2481",
+            "given": "Rudolph Valentino",
+            "family": "Docot",
+            "note": "Curator of Zingiberaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7579-1028",
+            "given": "Leanne",
+            "family": "Dreyer",
+            "note": "Curator of Oxalidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6152-5458",
+            "given": "Lei",
+            "family": "Duan",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3050-1901",
+            "given": "Jean-Yves",
+            "family": "Dubuisson",
+            "note": "Curator of Hymenophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2291-739X",
+            "given": "Julia",
+            "family": "Dupin",
+            "note": "Curator of Datureae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0600-8348",
+            "given": "Juan David Tovar",
+            "family": "Dur\u00e1n",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7380-3598",
+            "given": "Atsushi",
+            "family": "Ebihara",
+            "note": "Curator of Hymenophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7803-4444",
+            "given": "Ashley N.",
+            "family": "Egan",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8677-5688",
+            "given": "Alan",
+            "family": "Elliott",
+            "note": "Curator of Ericaceae, Irvingiaceae, Papavereae, Paracryphiaceae, Styracaceae and Tropaeolaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7682-3797",
+            "given": "Arve",
+            "family": "Elvebakk",
+            "note": "Curator of Papavereae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1093-0370",
+            "given": "R.H.J.",
+            "family": "Erkens",
+            "note": "Curator of Annonaceae and Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6320-7792",
+            "given": "Eugenio Valderrama",
+            "family": "Escall\u00f3n",
+            "note": "Curator of Renealmia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0208-6632",
+            "given": "Lauren",
+            "family": "Eserman",
+            "note": "Curator of Convolvulaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7192-4612",
+            "given": "Adolfo",
+            "family": "Espejo-Serna",
+            "note": "Curator of Commelinaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4484-3566",
+            "given": "Manuel de la",
+            "family": "Estrella",
+            "note": "Curator of Detarioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2235-3910",
+            "given": "Francisco",
+            "family": "Fajardo-Guti\u00e9rrez",
+            "note": "Curator of Cunoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8337-5112",
+            "given": "Marcus",
+            "family": "Falc\u00e3o",
+            "note": "Curator of Dialioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5021-1779",
+            "given": "Susan",
+            "family": "Fawcett",
+            "note": "Curator of Thelypteridaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1134-7918",
+            "given": "Priscila Porto Alegre",
+            "family": "Ferreira",
+            "note": "Curator of Cuscuta and Ipomoea in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5457-6369",
+            "given": "Pedro",
+            "family": "Fiaschi",
+            "note": "Curator of Eugeniinae and Oxalidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0139-7914",
+            "given": "Ashley",
+            "family": "Field",
+            "note": "Curator of Marsilea, Pellaea, Phlegmariurus, Pilularia, Polypodiaceae and Thelypteridaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8852-0470",
+            "given": "Mariela Nu\u00f1ez",
+            "family": "Florentin",
+            "note": "Curator of Rubiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2706-9350",
+            "given": "Alan",
+            "family": "Franck",
+            "note": "Curator of Cactaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0008-4022-358X",
+            "given": "Dieder de",
+            "family": "Frens",
+            "note": "Curator of Cystopteridaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3606-663X",
+            "given": "Peter",
+            "family": "Fritsch",
+            "note": "Curator of Cercidoideae, Styracaceae and Vaccinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9397-2831",
+            "given": "Tao",
+            "family": "Fujiwara",
+            "note": "Curator of Lepisorus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0001-5472-8465",
+            "given": "Billy",
+            "family": "Fullwood",
+            "note": "Curator of Rubus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3054-7325",
+            "given": "Paulo Henrique",
+            "family": "Gaem",
+            "note": "Curator of Calycolpus and Myrciinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3212-9688",
+            "given": "Edeline",
+            "family": "Gagnon",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2501-456X",
+            "given": "Gabriele",
+            "family": "Galasso",
+            "note": "Curator of Papavereae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7267-3330",
+            "given": "Merc\u00e8",
+            "family": "Galbany-Casals",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4719-3711",
+            "given": "Gianpietro Giusso del",
+            "family": "Galdo",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2205-0610",
+            "given": "Kanchi",
+            "family": "Gandhi",
+            "note": "Curator of Eugenia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1729-8010",
+            "given": "Jose Luis Villar",
+            "family": "Garc\u00eda",
+            "note": "Curator of Frankeniaceae and Tamaricaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1940-9581",
+            "given": "Andr\u00e9 Lu\u00eds de",
+            "family": "Gasper",
+            "note": "Curator of Blechnaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2051-0406",
+            "given": "Sebastian",
+            "family": "Gebauer",
+            "note": "Curator of Convolvulus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7951-1644",
+            "given": "Dmitry",
+            "family": "German",
+            "note": "Curator of Brassicaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8862-4042",
+            "given": "Leandro",
+            "family": "Giacomin",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0006-6765-9004",
+            "given": "Julian Mostacero",
+            "family": "Giannangeli",
+            "note": "Curator of Polytaenium, Pterozonium and Radiovittaria in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8263-9806",
+            "given": "Augusto",
+            "family": "Giaretta",
+            "note": "Curator of Eugeniinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0006-4794-4190",
+            "given": "Arthur",
+            "family": "Gilman",
+            "note": "Curator of Botrychium and Phegopteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3096-8763",
+            "given": "Deden",
+            "family": "Girmansyah",
+            "note": "Curator of Begoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5081-2803",
+            "given": "Danilo Soares",
+            "family": "Gissi",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7047-6720",
+            "given": "Renato",
+            "family": "Goldenberg",
+            "note": "Curator of Melastomataceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6799-376X",
+            "given": "Pa\u00fal",
+            "family": "Gonz\u00e1les",
+            "note": "Curator of Salpichroa in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7162-8458",
+            "given": "Yuri",
+            "family": "Gouv\u00eaa",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2991-5282",
+            "given": "Rafa\u00ebl Herman Anna",
+            "family": "Govaerts",
+            "note": "Curator of Acanthaceae, Achariaceae, Acoraceae, Actinidiaceae, Aextoxicaceae, Akaniaceae, Alismataceae, Alseuosmiaceae, Alstroemeriaceae, Altingiaceae, Alzateaceae, Amborellaceae, Anacardiaceae, Anisophylleaceae, Aphloiaceae, Aponogetonaceae, Araceae, Araliaceae, Arecaceae, Aristolochioideae, Asaroideae, Asteliaceae, Atherospermataceae, Austrobaileyaceae, Balanopaceae, Balanophoraceae, Balsaminaceae, Barbeyaceae, Bataceae, Berberidaceae, Berberidopsidaceae, Betulaceae, Biebersteiniaceae, Bignoniaceae, Bixaceae, Bonnetiaceae, Boryaceae, Bromeliaceae, Brunelliaceae, Burmanniaceae, Burseraceae, Butomaceae, Byblidaceae, Cabombaceae, Caesalpinioideae, Calceolariaceae, Calycanthaceae, Calyceraceae, Campynemataceae, Canellaceae, Cannabaceae, Capparaceae, Cardiopteridaceae, Caricaceae, Carlemanniaceae, Caryocaraceae, Casuarinaceae, Celastraceae, Centroplacaceae, Cephalotaceae, Ceratophyllaceae, Cercidiphyllaceae, Chloranthus, Circaeasteraceae, Cistaceae, Clethraceae, Columelliaceae, Commelinales, Connaraceae, Cornaceae, Corsiaceae, Costaceae, Crossosomataceae, Crypteroniaceae, Ctenolophonaceae, Cunoniaceae, Cyclanthaceae, Cymodoceaceae, Cynomoriaceae, Daphniphyllaceae, Dasypogonaceae, Degeneriaceae, Dichapetalaceae, Dilleniaceae, Dipentodontaceae, Dirachmaceae, Doryanthaceae, Ecdeiocoleaceae, Elaeagnaceae, Elaeocarpaceae, Elatinaceae, Emblingiaceae, Ephedraceae, Eriocaulaceae, Erythroxylaceae, Eucommiaceae, Euphroniaceae, Eupomatiaceae, Flagellariaceae, Francoaceae, Garryaceae, Geissolomataceae, Gelsemiaceae, Gentianaceae, Gerrardinaceae, Gnetaceae, Gomortegaceae, Goodeniaceae, Goupiaceae, Grossulariaceae, Guamatelaceae, Gunneraceae, Gyrostemonaceae, Hamamelidaceae, Heliconiaceae, Helwingiaceae, Hernandiaceae, Huaceae, Humiriaceae, Hydatellaceae, Hydrangeaceae, Hydrocharitaceae, Icacinaceae, Iridaceae, Iteaceae, Ixioliriaceae, Ixonanthaceae, Joinvilleaceae, Juglandaceae, Juncaceae, Juncaginaceae, Kirkiaceae, Koeberliniaceae, Lamiaceae, Lardizabalaceae, Lauraceae, Lecythidaceae, Lentibulariaceae, Lepidobotryaceae, Liliaceae, Limnanthaceae, Linaceae, Linderniaceae, Loganiaceae, Lophopyxidaceae, Lythraceae, Magnoliaceae, Marantaceae, Marcgraviaceae, Martyniaceae, Maundiaceae, Mayacaceae, Mazaceae, Melanthiaceae, Menispermaceae, Menyanthaceae, Metteniusaceae, Misodendraceae, Moringaceae, Muntingiaceae, Myodocarpaceae, Myricaceae, Myristicaceae, Myrtaceae, Nartheciaceae, Nelumbonaceae, Neuradaceae, Nitrariaceae, Nothofagaceae, Nymphaeaceae, Nyssaceae, Olacaceae, Oleaceae, Opiliaceae, Orobanchaceae, Oxalidaceae, Paeoniaceae, Pandaceae, Papilionoideae, Paulowniaceae, Pedaliaceae, Penaeaceae, Pentadiplandraceae, Pentaphragmataceae, Pentaphylacaceae, Peraceae, Petenaeaceae, Petermanniaceae, Petrosaviaceae, Phellinaceae, Philesiaceae, Phrymaceae, Phyllanthaceae, Phyllonomaceae, Piperaceae, Pittosporaceae, Plantaginaceae, Platanaceae, Plocospermataceae, Poaceae, Podostemaceae, Polemoniaceae, Posidoniaceae, Potamogetonaceae, Primulaceae, Rafflesiaceae, Rapateaceae, Restionaceae, Rhizophoraceae, Ripogonaceae, Rosaceae, Rousseaceae, Ruppiaceae, Rutaceae, Sabiaceae, Salvadoraceae, Sarraceniaceae, Saururaceae, Scheuchzeriaceae, Schisandraceae, Schlegeliaceae, Schoepfiaceae, Scrophulariaceae, Setchellanthaceae, Simaroubaceae, Siparunaceae, Smilacaceae, Sphenocleaceae, Staphyleaceae, Stemonaceae, Stemonuraceae, Stilbaceae, Strasburgeriaceae, Stylidiaceae, Symplocaceae, Tapisciaceae, Tetrachondraceae, Theaceae, Thomandersiaceae, Thurniaceae, Thymelaeaceae, Tofieldiaceae, Tovariaceae, Trigoniaceae, Trimeniaceae, Triuridaceae, Trochodendraceae, Typhaceae, Ulmaceae, Vahliaceae, Verbenaceae, Winteraceae, Xeronemataceae, Xyridaceae, Zosteraceae and Zygophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7892-5757",
+            "given": "Bernarda",
+            "family": "Greg\u00f3rio",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1034-1899",
+            "given": "Pablo C.",
+            "family": "Guerrero",
+            "note": "Curator of Cactaceae and Eugeniinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5433-6218",
+            "given": "Juan Ernesto",
+            "family": "Guevara-Andino",
+            "note": "Curator of Elaeocarpaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3919-8432",
+            "given": "C. Matt",
+            "family": "Guilliams",
+            "note": "Curator of Amsinckiinae and Namaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1810-8055",
+            "given": "Pedro Alejandro Gonz\u00e1lez",
+            "family": "Guti\u00e9rrez",
+            "note": "Curator of Buxaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4808-267X",
+            "given": "Laurence",
+            "family": "Haegi",
+            "note": "Curator of Anthocercideae, Datura, Lycium and Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8934-4544",
+            "given": "Thomas",
+            "family": "Haevermans",
+            "note": "Curator of Musaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5127-8438",
+            "given": "Martin Allen",
+            "family": "Hamilton",
+            "note": "Curator of Cordiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7702-3898",
+            "given": "Margaret",
+            "family": "Hanes",
+            "note": "Curator of Malvaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2144-3092",
+            "given": "Andrew",
+            "family": "Hankey",
+            "note": "Curator of Drimiopsis, Ledebouria, Occultia and Resnova in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6801-2484",
+            "given": "David J.",
+            "family": "Harris",
+            "note": "Curator of Irvingiaceae, Putranjivaceae and Zingiberaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0277-5104",
+            "given": "Kristen",
+            "family": "Hasenstab-Lehman",
+            "note": "Curator of Amsinckiinae, Cordiaceae, Hydrophyllaceae and Namaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4887-3508",
+            "given": "Sebastian",
+            "family": "Hatt",
+            "note": "Curator of Hydnoroideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0046-6500",
+            "given": "Gustavo",
+            "family": "Heiden",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9604-0116",
+            "given": "Sabine",
+            "family": "Hennequin",
+            "note": "Curator of Hymenophyllum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1929-3264",
+            "given": "Tilo",
+            "family": "Henning",
+            "note": "Curator of Loasaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0009-5005-0405",
+            "given": "M.A.",
+            "family": "Herrera-Pacheco",
+            "note": "Curator of Clusiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8234-9502",
+            "given": "Robin Fernandez",
+            "family": "Hilario",
+            "note": "Curator of Saracha in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3940-4710",
+            "given": "Rebecca",
+            "family": "Hilgenhof",
+            "note": "Curator of Passifloraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7570-2811",
+            "given": "Regina",
+            "family": "Hirai",
+            "note": "Curator of Adiantum, Brasiliopteris, Hecistopteris, Hemionitis, Megalastrum, Ormopteris, Rumohra, Trachypteris, Triplophyllum and Tryonia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0004-8592-4794",
+            "given": "Christopher",
+            "family": "Hoess",
+            "note": "Curator of Lycopodiopsida and Polypodiopsida in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4984-8224",
+            "given": "Helen Fortune",
+            "family": "Hopkins",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0364-2856",
+            "given": "Stephen",
+            "family": "Hopper",
+            "note": "Curator of Haemodoraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6815-7595",
+            "given": "Kiyotaka",
+            "family": "Hori",
+            "note": "Curator of Dryopteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2339-9478",
+            "given": "David",
+            "family": "Hoyos",
+            "note": "Curator of Browallia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2612-1885",
+            "given": "Tian-Chuan",
+            "family": "Hsu",
+            "note": "Curator of Devolia and Scleroglossum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2576-2143",
+            "given": "Ling",
+            "family": "Hu",
+            "note": "Curator of Rhododendron in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8209-0366",
+            "given": "Guillermo",
+            "family": "Huerta-Ramos",
+            "note": "Curator of Convolvulaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2168-0514",
+            "given": "Mark",
+            "family": "Hughes",
+            "note": "Curator of Begoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5740-3666",
+            "given": "Jo\u00e3o",
+            "family": "Iganci",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0004-3619-9119",
+            "given": "Sousuke",
+            "family": "Ishii",
+            "note": "Curator of Sceptridium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7123-124X",
+            "given": "Orlando Adolfo",
+            "family": "Jara-Mu\u00f1oz",
+            "note": "Curator of Begoniaceae and Orchidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5836-6764",
+            "given": "Firouzeh",
+            "family": "Javadi",
+            "note": "Curator of Myrcianthes and Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0000-6215-8661",
+            "given": "Pauline Rosina",
+            "family": "Jennert",
+            "note": "Curator of Meliaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5917-1846",
+            "given": "Kai-Wen",
+            "family": "Jiang",
+            "note": "Curator of Caesalpinioideae and Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2815-4477",
+            "given": "Pedro",
+            "family": "Jim\u00e9nez-Mej\u00edas",
+            "note": "Curator of Cyperaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2896-7419",
+            "given": "David",
+            "family": "Johnson",
+            "note": "Curator of Annonaceae and Xylopia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9501-0548",
+            "given": "Lucas S\u00e1 Barreto",
+            "family": "Jord\u00e3o",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2278-9669",
+            "given": "Atiles Reis",
+            "family": "Junior",
+            "note": "Curator of Asplenium and Diplazium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1797-9492",
+            "given": "H\u00e9ctor",
+            "family": "Keller",
+            "note": "Curator of Apocynaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0463-8437",
+            "given": "Markus",
+            "family": "Kiefer",
+            "note": "Curator of Brassicaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0890-4373",
+            "given": "Norbert",
+            "family": "Kilian",
+            "note": "Curator of Cichorioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0918-7196",
+            "given": "Sylvia",
+            "family": "Kinosian",
+            "note": "Curator of Acrostichum and Ceratopteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8509-0556",
+            "given": "Bente",
+            "family": "Klitgaard",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0948-5038",
+            "given": "R.R.",
+            "family": "Klopper",
+            "note": "Curator of Aloe inopinata, Aloeae, Asphodelaceae, Bruniaceae and Erica in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7698-3945",
+            "given": "Sandra",
+            "family": "Knapp",
+            "note": "Curator of Solanaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9024-7717",
+            "given": "Lucie",
+            "family": "Kobrlov\u00e1",
+            "note": "Curator of Boragineae, Boragininae, Pulmonaria and Symphytum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1693-6829",
+            "given": "Marcus",
+            "family": "Koch",
+            "note": "Curator of Brassicaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4821-0608",
+            "given": "Kamil",
+            "family": "Konowalik",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0106-3209",
+            "given": "Nadja",
+            "family": "Korotkova",
+            "note": "Curator of Caryophyllales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9391-874X",
+            "given": "Konstantina",
+            "family": "Koutroumpa",
+            "note": "Curator of Plumbaginaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3388-3757",
+            "given": "Li-Yaung",
+            "family": "Kuo",
+            "note": "Curator of Deparia, Leptogramma, Lomariopsidaceae, Schizaeaceae and Stegnogramma in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1863-6309",
+            "given": "Matias",
+            "family": "K\u00f6hler",
+            "note": "Curator of Cactaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5239-2048",
+            "given": "Paulo H.",
+            "family": "Labiak",
+            "note": "Curator of Anemiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0285-722X",
+            "given": "Isabel",
+            "family": "Larridon",
+            "note": "Curator of Cyperaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2390-5078",
+            "given": "Nicol\u00e1s",
+            "family": "Lavandero",
+            "note": "Curator of Nicotiana in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4205-1802",
+            "given": "Matt",
+            "family": "Lavin",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7202-7734",
+            "given": "Marcus",
+            "family": "Lehnert",
+            "note": "Curator of Cibotiaceae, Culcitaceae, Cyatheaceae, Dicksoniaceae, Loxsomataceae and Thyrsopteridaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6235-2026",
+            "given": "Samuli",
+            "family": "Lehtonen",
+            "note": "Curator of Lindsaeaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4490-3490",
+            "given": "Jana",
+            "family": "Leong-Skornickova",
+            "note": "Curator of Hanguanaceae, Lowiaceae and Zingiberaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3281-2973",
+            "given": "Brendan",
+            "family": "Lepschi",
+            "note": "Curator of Melaleuca in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1514-1570",
+            "given": "Geoffrey",
+            "family": "Levin",
+            "note": "Curator of Putranjivaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2599-4577",
+            "given": "Gwilym",
+            "family": "Lewis",
+            "note": "Curator of Caesalpinioideae and Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6307-8639",
+            "given": "Blanca",
+            "family": "Le\u00f3n",
+            "note": "Curator of Campyloneurum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0076-0152",
+            "given": "Fay-Wei",
+            "family": "Li",
+            "note": "Curator of Gaga in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3575-6003",
+            "given": "Isaac",
+            "family": "Lichter-Marck",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2707-0335",
+            "given": "Sigrid",
+            "family": "Liede-Schumann",
+            "note": "Curator of Apocynaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9168-2507",
+            "given": "Alexandre Gibau de",
+            "family": "Lima",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4240-9077",
+            "given": "Duane Fernandes",
+            "family": "Lima",
+            "note": "Curator of Myrciinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1517-7100",
+            "given": "Lucas Vieira",
+            "family": "Lima",
+            "note": "Curator of Gleicheniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5435-5750",
+            "given": "Melanie",
+            "family": "Link-Perez",
+            "note": "Curator of Adiantopsis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3510-6580",
+            "given": "Vanessa",
+            "family": "Lino",
+            "note": "Curator of Aspleniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9986-9640",
+            "given": "Elton John de",
+            "family": "Lirio",
+            "note": "Curator of Monimiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0001-3342-9773",
+            "given": "Yea-Chen",
+            "family": "Liu",
+            "note": "Curator of Anisocampium and Athyrium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6898-7858",
+            "given": "Benoit",
+            "family": "Loeuille",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6485-9023",
+            "given": "Jenifer C.",
+            "family": "Lopes",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2655-993X",
+            "given": "Alicia",
+            "family": "Lopez",
+            "note": "Curator of Oxalidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0939-9068",
+            "given": "Yee Wen",
+            "family": "Low",
+            "note": "Curator of Syzygieae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7603-435X",
+            "given": "Eve",
+            "family": "Lucas",
+            "note": "Curator of Myrtaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2251-4056",
+            "given": "Federico",
+            "family": "Luebert",
+            "note": "Curator of Heliotropiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6822-7269",
+            "given": "Manuel",
+            "family": "Luj\u00e1n",
+            "note": "Curator of Clusiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1127-8721",
+            "given": "Christian",
+            "family": "L\u00f3pez",
+            "note": "Curator of Selaginella in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4109-3349",
+            "given": "Paul",
+            "family": "Maas",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6139-9559",
+            "given": "Makenzie E.",
+            "family": "Mabry",
+            "note": "Curator of Amsinckiinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0006-8498-9187",
+            "given": "Katie",
+            "family": "Mahon",
+            "note": "Curator of Hydroleaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6588-5634",
+            "given": "Mario",
+            "family": "Mairal",
+            "note": "Curator of Woodwardioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0369-1906",
+            "given": "Lucas C.",
+            "family": "Majure",
+            "note": "Curator of Cactaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4641-7795",
+            "given": "Maryam",
+            "family": "Malekmohammadi",
+            "note": "Curator of Plumbaginaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0004-0778-938X",
+            "given": "Yasper",
+            "family": "Mambrasar",
+            "note": "Curator of Rhododendron in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1053-3268",
+            "given": "Lakmini",
+            "family": "Marasinghe",
+            "note": "Curator of Cyphostigma, Elettaria, Myrcia neomicrophylla and Srilankanthus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1263-3414",
+            "given": "Lucas Cardoso",
+            "family": "Marinho",
+            "note": "Curator of Clusiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7378-836X",
+            "given": "Gonzalo",
+            "family": "Marquez",
+            "note": "Curator of Cyatheaceae and Dicksoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5143-1773",
+            "given": "Chris",
+            "family": "Martine",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2605-9575",
+            "given": "Mario",
+            "family": "Mart\u00ednez-Azor\u00edn",
+            "note": "Curator of Asparagaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3039-0973",
+            "given": "Bruce",
+            "family": "Maslin",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2133-6032",
+            "given": "F. B.",
+            "family": "Matos",
+            "note": "Curator of Elaphoglossum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4151-6164",
+            "given": "Olivier",
+            "family": "Maurin",
+            "note": "Curator of Combretaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7054-3308",
+            "given": "Robert James",
+            "family": "McKenzie",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2693-3752",
+            "given": "Juliana",
+            "family": "Medeiros",
+            "note": "Curator of Rhododendron in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3043-9973",
+            "given": "R. Briggitthe",
+            "family": "Melchor-Castro",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9404-3807",
+            "given": "Jos\u00e9 Iranildo Miranda de",
+            "family": "Melo",
+            "note": "Curator of Euploca and Myriopus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2982-7792",
+            "given": "Sabine von",
+            "family": "Mering",
+            "note": "Curator of Achatocarpaceae, Agdestidaceae, Anacampserotaceae, Ancistrocladaceae, Asteropeiaceae, Barbeuiaceae, Caryophyllaceae, Corbichoniaceae, Dioncophyllaceae, Drosophyllaceae, Gisekiaceae, Halophytaceae, Kewaceae, Lophiocarpaceae, Macarthuriaceae, Microteaceae, Physenaceae, Simmondsiaceae and Stegnospermataceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0823-818X",
+            "given": "Detlev",
+            "family": "Metzing",
+            "note": "Curator of Cactaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2433-9071",
+            "given": "Heidi",
+            "family": "Meudt",
+            "note": "Curator of Myosotidium and Myosotis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7395-5199",
+            "given": "Ulrich",
+            "family": "Meve",
+            "note": "Curator of Apteranthes, Australluma, Ballyanthus, Baynesia, Boucerosia, Caralluma, Caudanthera, Ceropegia, Cibirhiza, Conomitra, Duvalia, Duvaliandra, Duvaliaranthus, Echidnopsis, Edithcolea, Emplectanthus, Epistemma, Eucorymbia, Fockea, Hoodia, Hoodiapelia, Hoodiorbea, Hoodiotriche, Huernia, Huernialluma, Larryleachia, Lavrania, Leptadenia, Monolluma, Neoschumannia, Notechidnopsis, Ophionella, Orbea, Orbelia, Piaranthus, Pseudolithos, Quaqua, Raphionacme, Rhytidocaulon, Richtersveldia, Riocreuxia, Schlechterella, Sisyranthus, Socotrella, Staparesia, Stapelianthus, Stapeliopsis, Stapvalia, Tavaresia, Tridentapelia, Tridentea, Tromotriche and White-sloanea in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5803-281X",
+            "given": "Esteban Ismael",
+            "family": "Meza-Torres",
+            "note": "Curator of Microgramma, Ophioglossaceae and Pleopeltis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7348-143X",
+            "given": "Fabian A.",
+            "family": "Michelangeli",
+            "note": "Curator of Melastomataceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0005-5053-833X",
+            "given": "Lindsay",
+            "family": "Middleton",
+            "note": "Curator of Aeschynanthus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2396-4649",
+            "given": "Sonia Molino de",
+            "family": "Miguel",
+            "note": "Curator of Blechnaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5788-9010",
+            "given": "Joseph T.",
+            "family": "Miller",
+            "note": "Curator of Fabaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5802-2267",
+            "given": "Richard E",
+            "family": "Miller",
+            "note": "Curator of Argyreia, Astripomoea, Calystegia, Convolvulus, Ipomoea, Ipomoea sloteri, Stictocardia and Turbina in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2819-0323",
+            "given": "Michael",
+            "family": "Moeller",
+            "note": "Curator of Gesneriaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4013-3804",
+            "given": "Alexandre K.",
+            "family": "Monro",
+            "note": "Curator of Cestrum and Urticaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5431-8194",
+            "given": "Thiago Cobra e",
+            "family": "Monteiro",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4342-2089",
+            "given": "Peter",
+            "family": "Moonlight",
+            "note": "Curator of Begoniaceae, Ehretiaceae, Keraunea and Tropaeolaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8748-9723",
+            "given": "Isa",
+            "family": "Morais",
+            "note": "Curator of Malpighiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8906-8567",
+            "given": "J Francisco",
+            "family": "Morales",
+            "note": "Curator of Allamanda, Allomarkgrafia, Ambelania, Anechites, Apocynaceae, Cameraria, Carissa, Cascabela, Catharanthus, Couma, Echites, Forsteronia, Galactophora, Geissospermum, Hancornia, Himatanthus, Lacmellea, Laubertia, Laxoplumeria, Macoubea, Macropharynx, Mandevilla, Mesechites, Microplumeria, Molongum, Neobracea, Neocouma, Nerium, Odontadenia, Pacouria, Parahancornia, Pentalinon, Pinochia, Plumeria, Prestonia, Rauvolfia, Rhabdadenia, Secondatia, Skytanthus, Solanum, Spongiosperma, Stipecoma, Strempeliopsis, Tabernaemontana, Temnadenia, Thevetia, Thoreauea, Tintinnabularia, Vallesia and Vinca in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0862-0135",
+            "given": "Andr\u00e9",
+            "family": "Moreira",
+            "note": "Curator of Bonamia, Calycobolus, Convolvulus and Wilsonia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9136-1391",
+            "given": "Andres",
+            "family": "Moreira-Munoz",
+            "note": "Curator of Schizanthus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5306-476X",
+            "given": "Pablo",
+            "family": "Moroni",
+            "note": "Curator of Amsinckiinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6965-7615",
+            "given": "Sarah K.",
+            "family": "Morris",
+            "note": "Curator of Niphidium, Pleopeltis and Serpocaulon in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2710-469X",
+            "given": "Alexandra",
+            "family": "Muellner-Riehl",
+            "note": "Curator of Meliaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3580-8136",
+            "given": "Pablo",
+            "family": "Munoz-Rodriguez",
+            "note": "Curator of Calystegia, Camonea, Convolvulus, Evolvulus, Ipomoea and Stictocardia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7749-2857",
+            "given": "Andrew",
+            "family": "Murdock",
+            "note": "Curator of Marattiales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8358-363X",
+            "given": "Daniel",
+            "family": "Murphy",
+            "note": "Curator of Caesalpinioideae and Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9902-830X",
+            "given": "Wendy A.",
+            "family": "Mustaqim",
+            "note": "Curator of Costera, Gaultheria Diplycosia and Rigiolepis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1071-4707",
+            "given": "C.M.",
+            "family": "Mynssen",
+            "note": "Curator of Desmophlebium and Diplazium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1609-7882",
+            "given": "Andreas",
+            "family": "M\u00fcller",
+            "note": "Curator of Buxaceae, Cactaceae, Cichorioideae and Plumbaginaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3909-4388",
+            "given": "Charles",
+            "family": "Nelson",
+            "note": "Curator of Erica in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4380-7715",
+            "given": "Anush",
+            "family": "Nersesyan",
+            "note": "Curator of Caryophyllaceae and Dianthus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4851-015X",
+            "given": "Mark",
+            "family": "Newman",
+            "note": "Curator of Zingiberaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4719-7472",
+            "given": "Joel",
+            "family": "Nitta",
+            "note": "Curator of Lindsaeineae, Lycopodiophyta, Polypodiophyta and Saccolomatineae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0471-644X",
+            "given": "Nicolai M.",
+            "family": "N\u00fcrk",
+            "note": "Curator of Hypericum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7414-3416",
+            "given": "Nataly",
+            "family": "O'Leary",
+            "note": "Curator of Heliotropiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6248-351X",
+            "given": "Kenneth",
+            "family": "Oberlander",
+            "note": "Curator of Oxalidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0002-6779-2826",
+            "given": "Sanna Birgitta",
+            "family": "Olander",
+            "note": "Curator of Cupressidae and Pinidae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8034-6068",
+            "given": "Marla Ibrahim Uehbe de",
+            "family": "Oliveira",
+            "note": "Curator of Pimentinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3511-1478",
+            "given": "Andres",
+            "family": "Orejuela",
+            "note": "Curator of Solandreae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5639-2558",
+            "given": "Clara In\u00e9s",
+            "family": "Orozco",
+            "note": "Curator of Brunelliaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4583-6701",
+            "given": "Andres Ernesto",
+            "family": "Ortiz-Rodriguez",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0006-5446-6019",
+            "given": "Roy",
+            "family": "Osborne",
+            "note": "Curator of Cycadales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6104-4264",
+            "given": "Bengt",
+            "family": "Oxelman",
+            "note": "Curator of Caryophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0700-6723",
+            "given": "Arun",
+            "family": "Pandey",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1624-8807",
+            "given": "John",
+            "family": "Parnell",
+            "note": "Curator of Eupteleaceae and Himantandraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0478-627X",
+            "given": "Barbara",
+            "family": "Parris",
+            "note": "Curator of Grammitidoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6408-1901",
+            "given": "Sachin",
+            "family": "Patil",
+            "note": "Curator of Ophioglossum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8783-1362",
+            "given": "Marco O. O.",
+            "family": "Pellegrini",
+            "note": "Curator of Cabombaceae, Commelinales, Malpighiaceae, Mayacaceae and Podostemaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2861-3445",
+            "given": "Jessie",
+            "family": "Pelosi",
+            "note": "Curator of Lygodiaceae and Lygodium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6990-1419",
+            "given": "Pieter",
+            "family": "Pelser",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7619-824X",
+            "given": "Colin Alistair",
+            "family": "Pendry",
+            "note": "Curator of Polygonaceae and Ruprechtia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0727-2829",
+            "given": "Darin S.",
+            "family": "Penneys",
+            "note": "Curator of Dicrananthera hedyotidea in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8196-288X",
+            "given": "Toby",
+            "family": "Pennington",
+            "note": "Curator of Caesalpinioideae and Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8964-343X",
+            "given": "Jovani Bernardino de Souza",
+            "family": "Pereira",
+            "note": "Curator of Isoetales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8380-843X",
+            "given": "F.S.",
+            "family": "Petrongari",
+            "note": "Curator of Camonea, Decalobanthus, Distimake, Ipomoea, Merremia, Operculina and Xenostegia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5988-7361",
+            "given": "Flavia Fonseca",
+            "family": "Pezzini",
+            "note": "Curator of Malvaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0615-0240",
+            "given": "Aireen",
+            "family": "Phang",
+            "note": "Curator of Sapotaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1760-329X",
+            "given": "Yohan",
+            "family": "Pillon",
+            "note": "Curator of Argophyllaceae, Escalloniaceae, Kjellbergiodendron, Lophostemon, Lophostemoneae, Melaleuca, Metrosidereae, Metrosideros, Oxalidales, Paracryphiaceae, Syncarpia, Welchiodendron, Whiteodendron, Xanthomyrteae and Xanthomyrtus in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6055-6989",
+            "given": "Michael",
+            "family": "Pinter",
+            "note": "Curator of Austronea, Bowiea, Daubenya, Desertia, Dipcadi, Geschollia, Massonia, Mucinaea, Namophila, Spetaea, Striatula, Tenicroa and Whiteheadia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0403-4470",
+            "given": "Michael D.",
+            "family": "Pirie",
+            "note": "Curator of Annonaceae, Calluna, Daboecia and Erica in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0107-1068",
+            "given": "Peter",
+            "family": "Poczai",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7651-6439",
+            "given": "Axel Dalberg",
+            "family": "Poulsen",
+            "note": "Curator of Lowiaceae and Zingiberaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4783-3125",
+            "given": "J.",
+            "family": "Prado",
+            "note": "Curator of Polypodiopsida in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3032-2102",
+            "given": "Jessica",
+            "family": "Prebble",
+            "note": "Curator of Myosotidium and Myosotis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0304-1812",
+            "given": "Carmen",
+            "family": "Puglisi",
+            "note": "Curator of Ebenaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3668-753X",
+            "given": "Timoth\u00e9e Le",
+            "family": "P\u00e9chon",
+            "note": "Curator of Malvaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7436-0939",
+            "given": "Luciano Paganucci de",
+            "family": "Queiroz",
+            "note": "Curator of Fabaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7618-3112",
+            "given": "Alejandro",
+            "family": "Quintanar",
+            "note": "Curator of Putranjivaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6765-0353",
+            "given": "Richard K.",
+            "family": "Rabeler",
+            "note": "Curator of Caryophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5963-349X",
+            "given": "Heimo",
+            "family": "Rainer",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2620-6464",
+            "given": "Nivohenintsoa",
+            "family": "Rakotonirina",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4539-394X",
+            "given": "Gustavo",
+            "family": "Ramos",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3714-8231",
+            "given": "J.G.",
+            "family": "Rando",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0529-0257",
+            "given": "David",
+            "family": "Rankin",
+            "note": "Curator of Papavereae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8758-9326",
+            "given": "Alessandro",
+            "family": "Rapini",
+            "note": "Curator of Apocynaceae, Marsdenia and Ruehssia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3271-6949",
+            "given": "Pantamith",
+            "family": "Rattanakrajang",
+            "note": "Curator of Argyreia, Convolvulus, Erycibe, Ipomoea, Lepistemon, Lepistemonopsis, Neuropeltis, Neuropeltopsis, Remirema and Rivea in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0005-5355-006X",
+            "given": "Erica Onjaniaina",
+            "family": "Ravomanana",
+            "note": "Curator of Annonaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3152-4726",
+            "given": "Lauren",
+            "family": "Raz",
+            "note": "Curator of Dioscoreaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2414-604X",
+            "given": "Ledis",
+            "family": "Regalado",
+            "note": "Curator of Adiantum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0005-6616",
+            "given": "Gonzalo  Rodriguez",
+            "family": "Rizk",
+            "note": "Curator of Marattiales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3811-595X",
+            "given": "Elmar",
+            "family": "Robbrecht",
+            "note": "Curator of Coffeeae and Knoxieae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4130-6685",
+            "given": "Michele",
+            "family": "Rodda",
+            "note": "Curator of Apocynaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1850-8158",
+            "given": "Rodrigo Sch\u00fctz",
+            "family": "Rodrigues",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1136-0960",
+            "given": "Zachary S.",
+            "family": "Rogers",
+            "note": "Curator of Cunoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7164-1313",
+            "given": "Blanca Mar\u00eda",
+            "family": "Rojas-Andr\u00e9s",
+            "note": "Curator of Meliaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6605-1770",
+            "given": "Carl",
+            "family": "Rothfels",
+            "note": "Curator of Lycopodiophyta and Polypodiophyta in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4705-2513",
+            "given": "Margaretha Marianne Le",
+            "family": "Roux",
+            "note": "Curator of Fabaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0104-7524",
+            "given": "Alexandre",
+            "family": "Salino",
+            "note": "Curator of Ctenitis, Pecluma, Pleopeltis, Polypodium, Selaginellaceae, Tectaria and Thelypteridaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6551-8877",
+            "given": "Val\u00e9ria da Silva",
+            "family": "Sampaio",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5429-3441",
+            "given": "Ludovica",
+            "family": "Santilli",
+            "note": "Curator of Nicotiana in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0004-2782-3397",
+            "given": "Guillermo",
+            "family": "Santos",
+            "note": "Curator of Spicantopsis, Struthiopteris and Woodwardioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0431-1095",
+            "given": "Matheus Fortes",
+            "family": "Santos",
+            "note": "Curator of Myrciinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0680-5531",
+            "given": "David",
+            "family": "San\u00edn",
+            "note": "Curator of Serpocaulon in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7479-8962",
+            "given": "Edward",
+            "family": "Schilling",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0002-1829-3502",
+            "given": "Boris",
+            "family": "Schlumpberger",
+            "note": "Curator of Cactaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7402-8941",
+            "given": "Alexander",
+            "family": "Schmidt-Lebuhn",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4548-7268",
+            "given": "Harald",
+            "family": "Schneider",
+            "note": "Curator of Lycopodiophyta and Polypodiophyta in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9823-6569",
+            "given": "Julio V.",
+            "family": "Schneider",
+            "note": "Curator of Quiinoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3891-9904",
+            "given": "Eric",
+            "family": "Schuettpelz",
+            "note": "Curator of Lycopodiophyta and Polypodiophyta in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5305-9300",
+            "given": "Pedro",
+            "family": "Schwartsburd",
+            "note": "Curator of Hypolepis, Oleandra, Oleandraceae, Saccoloma, Saccolomataceae and Salvinia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0001-5328-820X",
+            "given": "Wei Wei",
+            "family": "Seah",
+            "note": "Curator of Calophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3820-125X",
+            "given": "Federico",
+            "family": "Selvi",
+            "note": "Curator of Boraginoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0002-5305-1349",
+            "given": "Luiz",
+            "family": "Sena",
+            "note": "Curator of Cassia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6664-7657",
+            "given": "Alexander Nikolaevich",
+            "family": "Sennikov",
+            "note": "Curator of Asteraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6496-5536",
+            "given": "Emily",
+            "family": "Sessa",
+            "note": "Curator of Dryopteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3260-213X",
+            "given": "Hui",
+            "family": "Shang",
+            "note": "Curator of Didymochlaena, Hiya and Hypolepis in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6393-5231",
+            "given": "Wen",
+            "family": "Shao",
+            "note": "Curator of Selliguea in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4731-1311",
+            "given": "Gustavo",
+            "family": "Shimizu",
+            "note": "Curator of Fabaceae, Papilionoideae and Vochysiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4816-7136",
+            "given": "Wataru",
+            "family": "Shinohara",
+            "note": "Curator of Histiopteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8656-7726",
+            "given": "Erin",
+            "family": "Sigel",
+            "note": "Curator of Polypodiaceae, Polypodium and Salvinia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4250-0017",
+            "given": "Guilherme Sousa da",
+            "family": "Silva",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5742-3707",
+            "given": "Rafael Costa",
+            "family": "Silva",
+            "note": "Curator of Cannaceae, Griseliniaceae and Lycianthes in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5732-1716",
+            "given": "Marcelo",
+            "family": "Simon",
+            "note": "Curator of Caesalpinioideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6197-2132",
+            "given": "Michael George",
+            "family": "Simpson",
+            "note": "Curator of Amsinckiinae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9738-9494",
+            "given": "Ros\u00e2ngela",
+            "family": "Sim\u00e3o-Bianchini",
+            "note": "Curator of Calycobolus, Convolvulus, Distimake, Evolvulus, Ipomoea, Jacquemontia and Maripa in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7267-8353",
+            "given": "Ana Rita",
+            "family": "Sim\u00f5es",
+            "note": "Curator of Convolvulaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0574-3589",
+            "given": "C.",
+            "family": "Skema",
+            "note": "Curator of Malvaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1177-1682",
+            "given": "E.C.",
+            "family": "Smidt",
+            "note": "Curator of Orchidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2010-4459",
+            "given": "Stacey",
+            "family": "Smith",
+            "note": "Curator of Iochroma, Saracha and Vassobia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6314-9767",
+            "given": "Dmitry",
+            "family": "Sokoloff",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6997-5813",
+            "given": "Marc",
+            "family": "Sosef",
+            "note": "Curator of Poaceae and Vochysiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6196-6197",
+            "given": "Solange",
+            "family": "Sotuyo",
+            "note": "Curator of Caesalpinioideae and Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8288-314X",
+            "given": "Leonardo da Silveira de",
+            "family": "Souza",
+            "note": "Curator of Metternichia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2986-7076",
+            "given": "Dennis",
+            "family": "Stevenson",
+            "note": "Curator of Cycadaceae, Cycadales and Zamiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7207-2765",
+            "given": "Charles",
+            "family": "Stirton",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7506-9043",
+            "given": "Shannon",
+            "family": "Straub",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8462-7956",
+            "given": "Serafin J. R.",
+            "family": "Streiff",
+            "note": "Curator of Connaraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1109-7015",
+            "given": "Joeri Sergej",
+            "family": "Strijk",
+            "note": "Curator of Fagaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1568-150X",
+            "given": "Michael",
+            "family": "Sundue",
+            "note": "Curator of Ascogrammitis and Mycopteris in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1239-189X",
+            "given": "Patrick W.",
+            "family": "Sweeney",
+            "note": "Curator of Clusiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0486-0898",
+            "given": "Lana",
+            "family": "Sylvestre",
+            "note": "Curator of Aspleniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8621-0222",
+            "given": "Daniel",
+            "family": "S\u00e1nchez",
+            "note": "Curator of Cactaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6956-3093",
+            "given": "Tiina",
+            "family": "S\u00e4rkinen",
+            "note": "Curator of Solanaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0157-5116",
+            "given": "Maverick",
+            "family": "Tamayo",
+            "note": "Curator of Ericaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6884-8946",
+            "given": "Mark",
+            "family": "Tebbitt",
+            "note": "Curator of Begoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2707-2341",
+            "given": "Jordan",
+            "family": "Teisher",
+            "note": "Curator of Poaceae and Tropaeolaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7216-4755",
+            "given": "J. Daniel",
+            "family": "Tejero-D\u00edez",
+            "note": "Curator of Phlebodium, Pleopeltis, Polypodium, Psilotum and Woodsia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-8493-0736",
+            "given": "Eric",
+            "family": "Tepe",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1307-6042",
+            "given": "Daniel Caspar",
+            "family": "Thomas",
+            "note": "Curator of Annonaceae and Begoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-0325-5725",
+            "given": "Andrew H",
+            "family": "Thornhill",
+            "note": "Curator of Myrtaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5970-8343",
+            "given": "Mats",
+            "family": "Thulin",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9485-8694",
+            "given": "Cassio",
+            "family": "Toledo",
+            "note": "Curator of Connaraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-8823-3519",
+            "given": "Benjamin",
+            "family": "Torke",
+            "note": "Curator of Bocoa, Candolleodendron and Swartzia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2047-2948",
+            "given": "Rafaela",
+            "family": "Trad",
+            "note": "Curator of Calophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9745-3222",
+            "given": "Anna",
+            "family": "Trias-Blasi",
+            "note": "Curator of Vitaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-5193-8865",
+            "given": "Angelo",
+            "family": "Troia",
+            "note": "Curator of Isoetaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9564-1163",
+            "given": "Karinne Sampaio",
+            "family": "Valdemarin",
+            "note": "Curator of Eugenia, Eugeniinae and Myrcianthes in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6242-4760",
+            "given": "Alejandra",
+            "family": "Vasco",
+            "note": "Curator of Desmophlebiaceae and Elaphoglossum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7850-6672",
+            "given": "Caroline da Cruz",
+            "family": "Vasconcelos",
+            "note": "Curator of Sapotaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9991-7924",
+            "given": "Thais",
+            "family": "Vasconcelos",
+            "note": "Curator of Acca, Accara, Calycolpus, Campomanesia, Chamguava, Curitiba, Feijoa, Legrandia, Lenwebbia, Lophomyrtus, Mosiera, Myrrhinium, Myrteola, Myrtus, Neomyrtus, Pimenta, Psidium and Ugni in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-6247-7010",
+            "given": "Maria-Anna",
+            "family": "Vasile",
+            "note": "Curator of Boraginales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7978-2516",
+            "given": "Diego Tavares",
+            "family": "Vasques",
+            "note": "Curator of Hymenophyllaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-9644-0566",
+            "given": "Mohammad",
+            "family": "Vatanparast",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-9332-7798",
+            "given": "Brecht",
+            "family": "Verstraete",
+            "note": "Curator of Rubiaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0899-1120",
+            "given": "Maria (bat) S.",
+            "family": "Vorontsova",
+            "note": "Curator of Poaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-6428-7774",
+            "given": "Jurriaan M. de",
+            "family": "Vos",
+            "note": "Curator of Connaraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-3331-2898",
+            "given": "Hua-Feng",
+            "family": "Wang",
+            "note": "Curator of Dipsacales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-1017-4958",
+            "given": "Richa Kusuma",
+            "family": "Wati",
+            "note": "Curator of Orchidaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4989-3976",
+            "given": "Mark",
+            "family": "Watson",
+            "note": "Curator of Tropaeolaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-1031-3249",
+            "given": "Campbell",
+            "family": "Webb",
+            "note": "Curator of Lacistemataceae and Salicaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0007-7827-1678",
+            "given": "Lina Valeska von",
+            "family": "Wedel",
+            "note": "Curator of Meliaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0001-7393-9965",
+            "given": "Ran",
+            "family": "Wei",
+            "note": "Curator of Diplazium in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-0813-6650",
+            "given": "Maximilian",
+            "family": "Weigend",
+            "note": "Curator of Boraginales in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4029-5387",
+            "given": "Nicholas",
+            "family": "Wilding",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3407-8397",
+            "given": "Peter",
+            "family": "Wilkie",
+            "note": "Curator of Sapotaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5231-3987",
+            "given": "Hannah",
+            "family": "Wilson",
+            "note": "Curator of Begoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0005-1296-2973",
+            "given": "Sundre",
+            "family": "Winslow",
+            "note": "Curator of Solanum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0006-2870-6322",
+            "given": "Nadia Mariana",
+            "family": "Woloszyn",
+            "note": "Curator of Dipteridaceae and Matoniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-2239-0487",
+            "given": "Ke-Wang",
+            "family": "Xu",
+            "note": "Curator of Aspleniaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4508-2148",
+            "given": "Agustina",
+            "family": "Ya\u00f1ez",
+            "note": "Curator of Dennstaedtiaceae, Gleicheniales, Marattiaceae and Osmundaceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-7898-1465",
+            "given": "Sawita",
+            "family": "Yooprasert",
+            "note": "Curator of Hypobathrum and Urophyllum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0009-0008-9879-8642",
+            "given": "Haoyang",
+            "family": "You",
+            "note": "Curator of Stachyuraceae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-3202-7334",
+            "given": "Pilar",
+            "family": "Zamora-Tavares",
+            "note": "Curator of Alkekengi, Calliphysalis, Capsicophysalis, Chamaesaracha, Leucophysalis, Oryctes, Physaliastrum, Physalis, Schraderanthus, Tzeltalia and Witheringia in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-2818-5751",
+            "given": "Cai-Fei",
+            "family": "Zhang",
+            "note": "Curator of Cynanchum and Vincetoxicum in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4905-040X",
+            "given": "Li-Bing",
+            "family": "Zhang",
+            "note": "Curator of Didymochlaena, Hypodematium and Pteridrys in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-4528-1382",
+            "given": "Rong",
+            "family": "Zhang",
+            "note": "Curator of Papilionoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0002-5030-7049",
+            "given": "Georg",
+            "family": "Zizka",
+            "note": "Curator of Quiinoideae in the Rhakhis editor."
+        },
+        {
+            "orcid": "0000-0003-4809-4379",
+            "given": "Stanislav",
+            "family": "\u0160paniel",
+            "note": "Curator of Brassicaceae in the Rhakhis editor."
+        }
+    ],
+    "publisher": {
+        "email": "taxwg@worldfloraonline.org",
+        "url": "http:\/\/www.worldfloraonline.org",
+        "organisation": "World Flora Online"
+    },
+    "contributor": [
+        {
+            "orcid": "0009-0009-8267-890X",
+            "given": "Emma",
+            "family": "Wrankmore",
+            "organisation": "IPNI (International Plant Names Index)"
+        },
+        {
+            "orcid": "0009-0005-9205-1351",
+            "given": "Helen",
+            "family": "Hartley",
+            "organisation": "IPNI (International Plant Names Index)"
+        },
+        {
+            "orcid": "0000-0002-6507-8293",
+            "given": "Jonathan",
+            "family": "Krieger",
+            "organisation": "IPNI (International Plant Names Index)"
+        },
+        {
+            "orcid": "0000-0002-2205-0610",
+            "given": "Kanchi",
+            "family": "Gandhi",
+            "organisation": "IPNI (International Plant Names Index)"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/endemic-plant-families-of-madagascar",
+            "organisation": "The Endemic Plant Families of Madagascar TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/zingiberaceae-resource-centre",
+            "organisation": "The Zingiberaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/sapotaceae-resource-centre",
+            "organisation": "The Sapotaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/styracaceae",
+            "organisation": "The Styracaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/solanaceaesource-org",
+            "organisation": "The Solanaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/global-conservation-consortium-acer-subfamily-hippocastanoideae",
+            "organisation": "The Sapindaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/grassbase",
+            "organisation": "The Poaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/picramniaceae",
+            "organisation": "The Picramniaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/papaveraceae_tribe_papaverae",
+            "organisation": "The Papaveraceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/quiinoideae",
+            "organisation": "The Ochnaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/musaceae",
+            "organisation": "The Musaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/melastomataceae-net",
+            "organisation": "The Melastomataceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/mayacaceae",
+            "organisation": "The Mayacaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/irvingiaceae",
+            "organisation": "The Irvingiaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/ericaceae-resource-centre",
+            "organisation": "The Ericaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/begonia-resource-centre",
+            "organisation": "The Begoniaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/forestry-research-programme-dipterocarpaceae-data-base",
+            "organisation": "The Dipterocarpaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/gesneriaceae",
+            "organisation": "The Gesneriaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/apocynaceae",
+            "organisation": "The Apocynaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/arecaceae",
+            "organisation": "The Arecaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/dioscoreaceae",
+            "organisation": "The Dioscoreaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/haloragaceae-and-related-families",
+            "organisation": "The Haloragaceae and related Families TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/commelinales",
+            "organisation": "The Commelinales TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/caryophyllales-org",
+            "organisation": "The Caryophyllales TEN -The Caryophyllales Network"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/fabaceae",
+            "organisation": "The Fabaceae TEN - Legume Taxonomy Working Group"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/conifers",
+            "organisation": "The Conifer TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/cycads",
+            "organisation": "The Cycad TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/annonaceae",
+            "organisation": "The Annonaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/monographia-aquifoliacearum",
+            "organisation": "The Aquifoliaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/alooideae",
+            "organisation": "The Asphodelaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/the-international-compositae-alliance",
+            "organisation": "The Asteraceaae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/bruniaceae",
+            "organisation": "The Bruniaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/cabombaceae",
+            "organisation": "The Cabombaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/fagaceae",
+            "organisation": "The Fagaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/hypericum",
+            "organisation": "The Hypericum TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/bryophytesgroup",
+            "organisation": "The Bryophyte TEN"
+        },
+        {
+            "url": "https:\/\/powo.science.kew.org\/",
+            "organisation": "World Checklist of Vascular Plants. Facilitated by the Royal Botanic Gardens, Kew."
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/dipsacales-caprifoliaceae-viburnaceae",
+            "organisation": "The Dipsacales TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/putranjivaceae",
+            "organisation": "The Putranjivaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/lowiaceae",
+            "organisation": "The Lowiaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/cyperaceae",
+            "organisation": "The Cyperaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/ebenaceae",
+            "organisation": "The Ebenaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/calophyllaceae",
+            "organisation": "The Calophyllaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/meliaceae",
+            "organisation": "The Meliaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/malpighiaceae",
+            "organisation": "The Malpighiaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/acanthaceae",
+            "organisation": "The Acanthaceae TEN"
+        },
+        {
+            "url": "https:\/\/brassibase.cos.uni-heidelberg.de\/",
+            "organisation": "The Brassicaceae TEN - Brassibase"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/malvaceae",
+            "organisation": "The Malvaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/myrtaceae",
+            "organisation": "The Myrtaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/salicaceae",
+            "organisation": "The Salicaceae & Lacistemataceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/pteridophyte-phylogeny-group",
+            "organisation": "Ferns and Allies TEN - the Pteridophyte Phylogeny Group (PPG)."
+        },
+        {
+            "url": "https:\/\/www.worldplants.de",
+            "organisation": "Michael Hassler - World Ferns (Individual custodian in cooperation with the Botanical Garden of the Karlsruhe Institute of Technology Karlsruhe, DE)"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/podostemaceae",
+            "organisation": "The Podostemaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/boraginales",
+            "organisation": "The Boraginales TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/combretaceae",
+            "organisation": "The Combretaceae TEN"
+        },
+        {
+            "url": "https:\/\/orcid.org\/0000-0002-8677-5688",
+            "organisation": "Alan Elliott"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/urticaceae",
+            "organisation": "The Urticaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/vitaceae",
+            "organisation": "The Vitaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/loasaceae",
+            "organisation": "The Loasaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org",
+            "organisation": "WFO's General Curatorial Team."
+        },
+        {
+            "url": "https:\/\/orcid.org\/0000-0001-5102-3729",
+            "organisation": "John Richard Ironside Wood (1944-)"
+        },
+        {
+            "url": "https:\/\/orcid.org\/0000-0002-5514-9561",
+            "organisation": "Iain Darbyshire (pers. data)"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/chrysobalanaceae",
+            "organisation": "Chrysobalanaceae TEN"
+        },
+        {
+            "url": "https:\/\/about.worldfloraonline.org\/tens\/oxalidales",
+            "organisation": "Oxalidales TEN"
+        },
+        {
+            "url": "https:\/\/orcid.org\/0000-0002-6956-3093",
+            "organisation": "Tiina S\u00e4rkinen"
+        }
+    ],
+    "keyword": [
+        "Global Strategy for Plant Conservation",
+        "Plants",
+        "Bryophytes",
+        "Taxonomic backbone"
+    ],
+    "geographicScope": "global",
+    "taxonomicScope": "Plantae, Bryophyta, Marchantiophyta, Anthocerotophyta,",
+    "temporalScope": "Consensus taxonomy as of 2026-06-21",
+    "confidence": 5,
+    "completeness": 95,
+    "license": "cc0",
+    "url": "https:\/\/wfoplantlist.org",
+    "logo": "https:\/\/list.worldfloraonline.org\/rhakhis\/ui\/logo1024.png",
+    "label": "World Flora Online Plant List 2026-06 (2026-06)",
+    "citation": "<div class=\"csl-entry\">World Flora Online. (2026). <span style=\"font-style: italic\">World Flora Online Plant List 2026-06<\/span> (G. Anderson, G. c. Andrella, M. Anguiano, W. h. Ardi, H. Atkins, J. j. Atwood, X. Aubriot, W. Baker, A. p. Balan, F. Bartolucci, L. Bohs, M. Bonifacino, L. Borges, J. c. Brinda, A. Bruneau, C. s. d. Carvalho, F. Chiarini, T. Couvreur, D. Crowley, et al., Eds.; Version 2026-06). World Flora Online. https:\/\/doi.org\/10.5281\/zenodo.7460141<\/div>",
+    "private": false
+}
