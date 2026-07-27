@@ -211,18 +211,21 @@ def main() -> None:
     )
 
     parser.add_argument(
+        "-u",
         "--user",
         required=True,
         help="MySQL username.",
     )
 
     parser.add_argument(
+        "-p",
         "--password",
         required=True,
         help="MySQL password.",
     )
 
     parser.add_argument(
+        "-d",
         "--database",
         required=True,
         help="MySQL database name.",
