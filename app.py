@@ -32,10 +32,44 @@ except Error as e:
     print(f"Error initializing database connection pool: {e}")
     db_pool = None
 
+def resolve_synonym_for_record(cursor, name_rec):
+    """
+    Given a name record, determine if it is a synonym and find its accepted name if so.
+    Returns: (is_synonym, accepted_name_record)
+    """
+    name_id = name_rec["id"]
+    cursor.execute("SELECT taxonid FROM synonym WHERE nameid = %s LIMIT 1", (name_id,))
+    syn_row = cursor.fetchone()
+    
+    is_synonym = False
+    accepted_name = None
+    
+    if syn_row:
+        is_synonym = True
+        taxon_id = syn_row["taxonid"]
+        
+        cursor.execute("SELECT nameid FROM taxon WHERE id = %s LIMIT 1", (taxon_id,))
+        taxon_row = cursor.fetchone()
+        
+        if taxon_row:
+            accepted_name_id = taxon_row["nameid"]
+            cursor.execute(
+                """
+                SELECT id, scientificname, authorship, rank, link, basionymid 
+                FROM name 
+                WHERE id = %s 
+                LIMIT 1
+                """,
+                (accepted_name_id,)
+            )
+            accepted_name = cursor.fetchone()
+            
+    return is_synonym, accepted_name
+
 def resolve_db_id(wfo_id):
     """
     Query the database to resolve a WFO ID.
-    Returns: (name_record, is_synonym, accepted_name_record) or (None, False, None)
+    Returns: list of match dictionaries
     """
     if not db_pool:
         raise RuntimeError("Database connection pool is not available.")
@@ -56,40 +90,14 @@ def resolve_db_id(wfo_id):
         name_rec = cursor.fetchone()
         
         if not name_rec:
-            return None, False, None
+            return []
             
-        name_id = name_rec["id"]
-        
-        # Check synonym status
-        cursor.execute("SELECT taxonid FROM synonym WHERE nameid = %s LIMIT 1", (name_id,))
-        syn_row = cursor.fetchone()
-        
-        is_synonym = False
-        accepted_name = None
-        
-        if syn_row:
-            is_synonym = True
-            taxon_id = syn_row["taxonid"]
-            
-            # Retrieve the nameid of the accepted taxon
-            cursor.execute("SELECT nameid FROM taxon WHERE id = %s LIMIT 1", (taxon_id,))
-            taxon_row = cursor.fetchone()
-            
-            if taxon_row:
-                accepted_name_id = taxon_row["nameid"]
-                # Get the accepted name record from the name table
-                cursor.execute(
-                    """
-                    SELECT id, scientificname, authorship, rank, link, basionymid 
-                    FROM name 
-                    WHERE id = %s 
-                    LIMIT 1
-                    """,
-                    (accepted_name_id,)
-                )
-                accepted_name = cursor.fetchone()
-                
-        return name_rec, is_synonym, accepted_name
+        is_synonym, accepted_name = resolve_synonym_for_record(cursor, name_rec)
+        return [{
+            "record": name_rec,
+            "is_synonym": is_synonym,
+            "accepted_name": accepted_name
+        }]
     finally:
         if conn:
             conn.close()
@@ -97,7 +105,7 @@ def resolve_db_id(wfo_id):
 def resolve_db_name(scientific_name, authorship=None):
     """
     Query the database to resolve a name and optional authorship.
-    Returns: (name_record, is_synonym, accepted_name_record) or (None, False, None)
+    Returns: list of match dictionaries
     """
     if not db_pool:
         raise RuntimeError("Database connection pool is not available.")
@@ -107,7 +115,7 @@ def resolve_db_name(scientific_name, authorship=None):
         conn = db_pool.get_connection()
         cursor = conn.cursor(dictionary=True)
         
-        name_rec = None
+        name_recs = []
         
         # If both scientific_name and authorship are provided, try matching them exactly
         if scientific_name and authorship:
@@ -116,80 +124,29 @@ def resolve_db_name(scientific_name, authorship=None):
                 FROM name
                 WHERE scientificname = %s 
                   AND (authorship = %s OR (authorship IS NULL AND (%s IS NULL OR %s = '')))
-                LIMIT 1
             """
             cursor.execute(sql, (scientific_name, authorship, authorship, authorship))
-            name_rec = cursor.fetchone()
-            
-            # Fallback: if not found with the author, search just by scientificname
-            if not name_rec:
-                sql = """
-                    SELECT id, scientificname, authorship, rank, link, basionymid
-                    FROM name
-                    WHERE scientificname = %s
-                    LIMIT 1
-                """
-                cursor.execute(sql, (scientific_name,))
-                name_rec = cursor.fetchone()
+            name_recs = cursor.fetchall()
         else:
-            # If only scientificname is provided
+            # If only scientificname is provided, retrieve all matching records
             sql = """
                 SELECT id, scientificname, authorship, rank, link, basionymid
                 FROM name
-                WHERE scientificname = %s 
-                  AND (authorship IS NULL OR authorship = '')
-                LIMIT 1
+                WHERE scientificname = %s
             """
             cursor.execute(sql, (scientific_name,))
-            name_rec = cursor.fetchone()
+            name_recs = cursor.fetchall()
             
-            # Fallback: if still not found, get any match for the scientificname
-            if not name_rec:
-                sql = """
-                    SELECT id, scientificname, authorship, rank, link, basionymid
-                    FROM name
-                    WHERE scientificname = %s
-                    LIMIT 1
-                """
-                cursor.execute(sql, (scientific_name,))
-                name_rec = cursor.fetchone()
-                
-        if not name_rec:
-            return None, False, None
+        results = []
+        for name_rec in name_recs:
+            is_synonym, accepted_name = resolve_synonym_for_record(cursor, name_rec)
+            results.append({
+                "record": name_rec,
+                "is_synonym": is_synonym,
+                "accepted_name": accepted_name
+            })
             
-        name_id = name_rec["id"]
-        
-        # Check if this name is a synonym in the synonym table
-        cursor.execute("SELECT taxonid FROM synonym WHERE nameid = %s LIMIT 1", (name_id,))
-        syn_row = cursor.fetchone()
-        
-        is_synonym = False
-        accepted_name = None
-        
-        if syn_row:
-            is_synonym = True
-            taxon_id = syn_row["taxonid"]
-            
-            # Retrieve the nameid of the accepted taxon
-            cursor.execute("SELECT nameid FROM taxon WHERE id = %s LIMIT 1", (taxon_id,))
-            taxon_row = cursor.fetchone()
-            
-            if taxon_row:
-                accepted_name_id = taxon_row["nameid"]
-                # Get the accepted name record from the name table
-                cursor.execute(
-                    """
-                    SELECT id, scientificname, authorship, rank, link, basionymid 
-                    FROM name 
-                    WHERE id = %s 
-                    LIMIT 1
-                    """,
-                    (accepted_name_id,)
-                )
-                accepted_name = cursor.fetchone()
-                
-        return name_rec, is_synonym, accepted_name
-        
+        return results
     finally:
         if conn:
             conn.close()
@@ -250,35 +207,7 @@ def resolve_fuzzy_db_name(full_name, threshold=0.75, limit=5):
         
         final_matches = []
         for score, cand in top_results:
-            name_id = cand["id"]
-            
-            # Check if synonym
-            cursor.execute("SELECT taxonid FROM synonym WHERE nameid = %s LIMIT 1", (name_id,))
-            syn_row = cursor.fetchone()
-            
-            is_synonym = False
-            accepted_name = None
-            
-            if syn_row:
-                is_synonym = True
-                taxon_id = syn_row["taxonid"]
-                
-                cursor.execute("SELECT nameid FROM taxon WHERE id = %s LIMIT 1", (taxon_id,))
-                taxon_row = cursor.fetchone()
-                
-                if taxon_row:
-                    accepted_name_id = taxon_row["nameid"]
-                    cursor.execute(
-                        """
-                        SELECT id, scientificname, authorship, rank, link, basionymid 
-                        FROM name 
-                        WHERE id = %s 
-                        LIMIT 1
-                        """,
-                        (accepted_name_id,)
-                    )
-                    accepted_name = cursor.fetchone()
-                    
+            is_synonym, accepted_name = resolve_synonym_for_record(cursor, cand)
             final_matches.append({
                 "similarity_score": round(score, 3),
                 "record": cand,
@@ -291,6 +220,73 @@ def resolve_fuzzy_db_name(full_name, threshold=0.75, limit=5):
         if conn:
             conn.close()
 
+def count_db_names(scientific_name, authorship=None):
+    """
+    Query the database to get count of names matching scientific_name and optional authorship.
+    """
+    if not db_pool:
+        raise RuntimeError("Database connection pool is not available.")
+        
+    conn = None
+    try:
+        conn = db_pool.get_connection()
+        cursor = conn.cursor()
+        
+        if scientific_name and authorship:
+            sql = """
+                SELECT COUNT(*)
+                FROM name
+                WHERE scientificname = %s 
+                  AND (authorship = %s OR (authorship IS NULL AND (%s IS NULL OR %s = '')))
+            """
+            cursor.execute(sql, (scientific_name, authorship, authorship, authorship))
+        else:
+            sql = """
+                SELECT COUNT(*)
+                FROM name
+                WHERE scientificname = %s
+            """
+            cursor.execute(sql, (scientific_name,))
+            
+        row = cursor.fetchone()
+        return row[0] if row else 0
+    finally:
+        if conn:
+            conn.close()
+
+def find_ancestor_by_taxon_id(cursor, taxon_id, target_rank):
+    """
+    Given a starting taxon ID, traverse up the hierarchy using a recursive CTE 
+    to find the closest ancestor of the specified rank.
+    """
+    if not taxon_id:
+        return None
+        
+    sql = """
+        WITH RECURSIVE taxonomy_ancestors AS (
+            # Anchor member: get the starting taxon
+            SELECT t.id, t.parentid, t.nameid, 0 AS depth
+            FROM taxon t
+            WHERE t.id = %s
+            
+            UNION ALL
+            
+            # Recursive member: get the parent
+            SELECT t.id, t.parentid, t.nameid, ta.depth + 1
+            FROM taxon t
+            INNER JOIN taxonomy_ancestors ta ON t.id = ta.parentid
+            WHERE ta.depth < 100
+        )
+        SELECT n.id, n.scientificname, n.authorship, n.rank, n.link
+        FROM taxonomy_ancestors ta
+        JOIN name n ON ta.nameid = n.id
+        WHERE LOWER(n.rank) = LOWER(%s) AND ta.depth > 0
+        ORDER BY ta.depth ASC
+        LIMIT 1
+    """
+    cursor.execute(sql, (taxon_id, target_rank))
+    return cursor.fetchone()
+
 @app.route("/")
 def index():
     return jsonify({
@@ -299,7 +295,9 @@ def index():
             "resolve_by_query": "/api/resolve?name=<scientific_name>&author=<authorship>",
             "resolve_by_id_query": "/api/resolve?id=<wfo_id>",
             "resolve_by_id_path": "/api/resolve/<wfo_id>",
-            "resolve_fuzzy": "/api/resolve/fuzzy?name=<fuzzy_name>&threshold=<threshold>&limit=<limit>"
+            "resolve_fuzzy": "/api/resolve/fuzzy?name=<fuzzy_name>&threshold=<threshold>&limit=<limit>",
+            "count": "/api/count?name=<name>&author=<author>",
+            "ancestor": "/api/ancestor?name=<name>&rank=<rank>&author=<author>"
         },
         "status": "online" if db_pool else "database_connection_error"
     })
@@ -311,20 +309,19 @@ def resolve_id_path(wfo_id):
         return jsonify({"error": "Invalid WFO ID format. Must start with 'wfo-'"}), 400
         
     try:
-        name_rec, is_synonym, accepted_name = resolve_db_id(wfo_id)
+        matches = resolve_db_id(wfo_id)
         
-        if not name_rec:
+        if not matches:
             return jsonify({
                 "query": {"id": wfo_id},
-                "match_found": False
+                "match_found": False,
+                "matches": []
             }), 404
             
         return jsonify({
             "query": {"id": wfo_id},
             "match_found": True,
-            "record": name_rec,
-            "is_synonym": is_synonym,
-            "accepted_name": accepted_name
+            "matches": matches
         })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -367,19 +364,18 @@ def resolve_query():
     # 1. Resolve by WFO ID if provided
     if wfo_id:
         try:
-            name_rec, is_synonym, accepted_name = resolve_db_id(wfo_id)
-            if not name_rec:
+            matches = resolve_db_id(wfo_id)
+            if not matches:
                 return jsonify({
                     "query": {"id": wfo_id},
-                    "match_found": False
+                    "match_found": False,
+                    "matches": []
                 }), 404
                 
             return jsonify({
                 "query": {"id": wfo_id},
                 "match_found": True,
-                "record": name_rec,
-                "is_synonym": is_synonym,
-                "accepted_name": accepted_name
+                "matches": matches
             })
         except Exception as e:
             return jsonify({"error": str(e)}), 500
@@ -392,23 +388,170 @@ def resolve_query():
         return jsonify({"error": "Missing required query parameter: 'name' or 'id'"}), 400
         
     try:
-        name_rec, is_synonym, accepted_name = resolve_db_name(name, author)
+        matches = resolve_db_name(name, author)
         
-        if not name_rec:
+        if not matches:
             return jsonify({
                 "query": {"name": name, "author": author},
-                "match_found": False
+                "match_found": False,
+                "matches": []
             }), 404
             
         return jsonify({
             "query": {"name": name, "author": author},
             "match_found": True,
-            "record": name_rec,
-            "is_synonym": is_synonym,
-            "accepted_name": accepted_name
+            "matches": matches
         })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route("/api/count", methods=["GET"])
+def count_query():
+    name = request.args.get("name", "").strip()
+    author = request.args.get("author", "").strip()
+    
+    if not name:
+        return jsonify({"error": "Missing required query parameter: 'name'"}), 400
+        
+    try:
+        count_val = count_db_names(name, author)
+        return jsonify({
+            "query": {
+                "name": name,
+                "author": author
+            },
+            "count": count_val
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/ancestor", methods=["GET"])
+def get_ancestor():
+    rank = request.args.get("rank", "").strip()
+    if not rank:
+        return jsonify({"error": "Missing required query parameter: 'rank'"}), 400
+        
+    wfo_id = request.args.get("id", "").strip()
+    name = request.args.get("name", "").strip()
+    author = request.args.get("author", "").strip()
+    
+    if not wfo_id and not name:
+        return jsonify({"error": "Missing required query parameter: 'name' or 'id'"}), 400
+        
+    if not db_pool:
+        return jsonify({"error": "Database connection pool is not available."}), 500
+        
+    conn = None
+    try:
+        conn = db_pool.get_connection()
+        cursor = conn.cursor(dictionary=True)
+        
+        matches = []
+        if wfo_id:
+            cursor.execute(
+                "SELECT id, scientificname, authorship, rank, link, basionymid FROM name WHERE id = %s LIMIT 1",
+                (wfo_id,)
+            )
+            name_rec = cursor.fetchone()
+            if name_rec:
+                is_synonym, accepted_name = resolve_synonym_for_record(cursor, name_rec)
+                matches.append({
+                    "record": name_rec,
+                    "is_synonym": is_synonym,
+                    "accepted_name": accepted_name
+                })
+        else:
+            if name and author:
+                sql = """
+                    SELECT id, scientificname, authorship, rank, link, basionymid
+                    FROM name
+                    WHERE scientificname = %s 
+                      AND (authorship = %s OR (authorship IS NULL AND (%s IS NULL OR %s = '')))
+                """
+                cursor.execute(sql, (name, author, author, author))
+                name_recs = cursor.fetchall()
+            else:
+                sql = """
+                    SELECT id, scientificname, authorship, rank, link, basionymid
+                    FROM name
+                    WHERE scientificname = %s
+                """
+                cursor.execute(sql, (name,))
+                name_recs = cursor.fetchall()
+                
+            for name_rec in name_recs:
+                is_synonym, accepted_name = resolve_synonym_for_record(cursor, name_rec)
+                matches.append({
+                    "record": name_rec,
+                    "is_synonym": is_synonym,
+                    "accepted_name": accepted_name
+                })
+                
+        if not matches:
+            query_info = {"id": wfo_id} if wfo_id else {"name": name, "author": author}
+            query_info["rank"] = rank
+            return jsonify({
+                "query": query_info,
+                "match_found": False,
+                "matches": []
+            }), 404
+            
+        processed_matches = []
+        for match in matches:
+            name_rec = match["record"]
+            is_syn = match["is_synonym"]
+            
+            start_taxon_id = None
+            if is_syn:
+                cursor.execute("SELECT taxonid FROM synonym WHERE nameid = %s LIMIT 1", (name_rec["id"],))
+                syn_row = cursor.fetchone()
+                if syn_row:
+                    start_taxon_id = syn_row["taxonid"]
+            else:
+                cursor.execute("SELECT id FROM taxon WHERE nameid = %s LIMIT 1", (name_rec["id"],))
+                taxon_row = cursor.fetchone()
+                if taxon_row:
+                    start_taxon_id = taxon_row["id"]
+                    
+            match["start_taxon_id"] = start_taxon_id
+            processed_matches.append(match)
+            
+        # Filter: if there are multiple matches, prioritize and use the ones with a corresponding taxon record
+        has_taxon_records = [m for m in processed_matches if m["start_taxon_id"] is not None]
+        if len(processed_matches) > 1 and has_taxon_records:
+            final_matches = has_taxon_records
+        else:
+            final_matches = processed_matches
+            
+        results = []
+        for match in final_matches:
+            ancestor = None
+            start_taxon_id = match["start_taxon_id"]
+            
+            if start_taxon_id:
+                ancestor = find_ancestor_by_taxon_id(cursor, start_taxon_id, rank)
+                
+            results.append({
+                "record": match["record"],
+                "is_synonym": match["is_synonym"],
+                "accepted_name": match["accepted_name"],
+                "ancestor": ancestor
+            })
+            
+        query_info = {"id": wfo_id} if wfo_id else {"name": name, "author": author}
+        query_info["rank"] = rank
+        
+        return jsonify({
+            "query": query_info,
+            "match_found": True,
+            "matches": results
+        })
+        
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    finally:
+        if conn:
+            conn.close()
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=5000, debug=True)
